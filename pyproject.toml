@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rd-lib-py-benerator"
+version = "0.1.0"
+description = "This is a Python wrapper for the rapiddweller-benerator-ce lib to easily integrate the benerator into your Python projects"
+authors = ["Alexander.Kell <Alexander.Kell@rapiddweller.com>"]
+license = "GPL-2.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+# file
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
